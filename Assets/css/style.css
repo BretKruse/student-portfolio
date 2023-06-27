@@ -1,0 +1,121 @@
+/* This will add padding and box size as you adjust the page*/
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #c90000;
+}
+/* This will adjust how the heading of my page will display*/
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #000ba7;
+  color: #ffffff;
+  width: 100%;
+}
+/* Adusted the font size and how the first header will display*/
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+/*Adjusted the three smaller titles for the header*/
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*Adjusted the section of my About Me paragraph of the page*/
+main {
+  width: 100%;
+  display: inline-block;
+
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 50px;
+  
+}
+
+main img {
+  max-height: 200px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.service
+{
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/*Adjusted the display of the footer*/
+footer {
+  margin-right: 20px;
+  clear: both;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #797979;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer section {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+footer section h3 {
+  margin-bottom: 10px;
+}
+
+footer section img {
+  display:flex;
+  margin: 10px auto;
+  max-width: 150px;
+}
